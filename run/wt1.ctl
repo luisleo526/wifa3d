@@ -1,0 +1,28 @@
+TITLE WIFA3D 2022R1
+Single Wind Turbine Modeling 
+XMF    YMF    ZMF
+1      1      1
+LREAD  LWRITE IFRE    LADM  BFINC URFUVW
+f      t      200     t     0.005   0.01 
+MAXIT  SORMAX
+5000   1E-4
+DENSIT VISCOS
+1.225  1.464E-5
+UIN    TEIN   XLREF   EXPON SBF REFH REFD
+8    0.0001 0.0001  0.1   0.0 70.0 80.0
+URF(U) URF(P) URF(TE)
+0.5    0.1    0.5
+SOR(U) SOR(P) SOR(TE)
+0.1    0.05   0.1
+NSW(U) NSW(P) NSW(TE)
+5      20     5
+CMU    CAPPA  STE     SED   CED1  CED2  ELOG  CTRANS  SFVIST URF
+0.09   0.41   1.0     1.3   1.44  1.92  8.342 11.3837 1e8    0.1
+LPRN
+f
+EROT          ALAT
+7.292115e-5   23.6978
+
+
+
+

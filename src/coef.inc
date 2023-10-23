@@ -1,0 +1,5 @@
+      COMMON /COEF/ AE(NXYZ),AW(NXYZ),AN(NXYZ),AS(NXYZ),
+     &              AT(NXYZ),AB(NXYZ),AP(NXYZ),
+     &              SU(NXYZ),SV(NXYZ),SW(NXYZ),
+     &              APU(NXYZ),APV(NXYZ),APW(NXYZ)
+      DOUBLE PRECISION AE,AW,AN,AS,AT,AB,SU,SV,SW,APU,APV,APW,AP

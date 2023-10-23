@@ -1,0 +1,108 @@
+================================================================================
+ CONTROL DATA:
+================================================================================
+ (*) Processor Number =  32
+ (*) Using ADM Module, NWT =   0
+================================================================================
+ SUMMARY OF SYSTEM PARAMETERS:Single Wind Turbine Modeling                                                                                                    
+================================================================================
+
+
+          **************************************************
+           LREAD :  F
+           LWRITE:  T
+
+
+
+          **************************************************
+           UIN   :    8.0000E+00
+           VIN   :    0.0000E+00
+           WIN   :    0.0000E+00
+           TEIN  :    6.4000E-03
+           EDIN  :    5.1200E+00
+
+
+
+          **************************************************
+           FLUID DENSITY    :  1.2250E+00
+           DYNAMIC VISCOSITY:  1.4640E-05
+
+   
+           ALFA  PARAMETER  :    0.92000000000000004     
+   
+           UNDERRELAXATION  FACTORS, ACTIVE AND ID
+           ===========================================
+           U-VELOCITY  :  0.5000E+00 T  1
+           V-VELOCITY  :  0.5000E+00 T  2
+           W-VELOCITY  :  0.5000E+00 T  3
+           PRESSURE    :  0.1000E+00 T  4
+           TUR. K.E.   :  0.5000E+00 T  5
+           DISSP. RATE :  0.5000E+00 T  6
+   
+           SPATIAL BLENDING FACTORS (CDS-UDS)
+           ==================================
+           U-VELOCITY  :  0.0000E+00
+           V-VELOCITY  :  0.0000E+00
+           W-VELOCITY  :  0.0000E+00
+           PRESSURE    :  0.0000E+00
+           TUR. K.E.   :  0.0000E+00
+           DISSP. RATE :  0.0000E+00
+   
+           SOR
+           ==================================
+           U-VELOCITY  :  0.1000E+00
+           V-VELOCITY  :  0.1000E+00
+           W-VELOCITY  :  0.1000E+00
+           PRESSURE    :  0.5000E-01
+           TUR. K.E.   :  0.1000E+00
+           DISSP. RATE :  0.1000E+00
+   
+           NSW
+           ==================================
+           U-VELOCITY  :       5
+           V-VELOCITY  :       5
+           W-VELOCITY  :       5
+           PRESSURE    :      20
+           TUR. K.E.   :       5
+           DISSP. RATE :       5
+   
+           LSORM
+           ==================================
+           U-VELOCITY  :  T
+           V-VELOCITY  :  T
+           W-VELOCITY  :  T
+           PRESSURE    :  T
+           TUR. K.E.   :  T
+           DISSP. RATE :  T
+   
+           FIELD PROPERTY UPDATE: (T/F), URFM, ID
+           ===========================================
+           TURB. VISCOS:  T 0.1000E+00  1
+                          
+
+           XMF    :  1.0000E+00
+           YMF    :  1.0000E+00
+           ZMF    :  1.0000E+00
+
+           IRCFP  :           0
+
+
+           CMU    :  9.0000E-02
+           CMU25  :  5.4772E-01
+           CMUR75 :  1.6432E-01
+           CAPPA  :  4.1000E-01
+           STE    :  1.0000E+00
+           SED    :  1.3000E+00
+           CED1   :  1.4400E+00
+           CED2   :  1.9200E+00
+           ELOG   :  8.3420E+00
+           CTRANS :  1.1384E+01
+
+           MAXIT  :        5000
+           SORMAX :  0.1000E-03
+           SLARGE :  0.1000E+31
+           ALFA   :  0.9200E+00
+           IFRE   :         200
+
+           UREF   :  0.8000E+01
+           XLREF  :  0.1000E-03
