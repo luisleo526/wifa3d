@@ -13,4 +13,4 @@ cp head.inc ./src/
 mpif90 -o wifa3d ./src/wifa3d.f -O3 -mcmodel=large -fno-align-commons
 mpif90 -o wifa3dpost ./src/wifa3dpost.f -O3 -mcmodel=large -fno-align-commons
 mpirun -np $NUM_OF_PROCESS ./wifa3d; 
-./wifa3dpost; rm RESULTS/*
+./wifa3dpost; rm RESULT/*
