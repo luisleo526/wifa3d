@@ -8,7 +8,7 @@ cd /app/$ROOT
 mkdir -p RESULT
 mpif90 -o wifa3dhead src/wifa3dhead.f -O3 -mcmodel=large -fno-align-commons
 ./wifa3dhead
-cp head.inc ./src/
+mv head.inc ./src/
 
 mpif90 -o wifa3d ./src/wifa3d.f -O3 -mcmodel=large -fno-align-commons
 mpif90 -o wifa3dpost ./src/wifa3dpost.f -O3 -mcmodel=large -fno-align-commons
